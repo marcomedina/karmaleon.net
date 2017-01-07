@@ -178,6 +178,20 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    padding: 0;
+    background-image: url('img/logo.png');
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+    height: 50px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-brand:hover {
+    background-image: url('img/logo2.png');
 }
 
 .navbar-default .navbar-brand:hover,
